@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">NavigationDrawer</string>
+    <string name="app_name">Daftar Minuman</string>
 
-    <string name="hello_blank_fragment">Hello blank
-fragment</string>
+
     <string name="this_activity">Ini adalah menu activity</string>
     <string name="this_fragment">Ini adalah menu fragment</string>
     <string name="search">Search</string>
@@ -10,6 +9,54 @@ fragment</string>
     <string name="menu_2">Menu 2</string>
 
     <string name="search_hint">Masukkan kata</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Minuman Boba</item>
+        <item>Minuman thaitea</item>
+        <item>Minuman Jamu Beras Kencar</item>
+        <item>Minuman Es Doger</item>
+        <item>Minuman Dalgona</item>
+
+    </string-array>
+    <string-array name="data_description">
+        <item>Minuman susu mutiara atau lebih sering disebut boba adalah
+            sejenis minuman susu ditambah dengan "mutiara" yang
+            terbuat dari tapioka.  </item>
+        <item>Thai tea adalah minuman yang terbuat dari campuran teh
+            hitam, adas manis, kapulaga, gula, bunga jeruk, dan susu.
+            Jenis minuman ini disebut juga dengan Chayen.  </item>
+        <item>jamu beras kencur terbuat dari beras dan rimpang kencur
+            yang dihaluskan bersama. Beragam manfaat yang ditawarkan
+            jamu beras kencur tak lepas dari kandungan nutrisi kedua
+            bahan tersebut. Beras antara lain mengandung kalsium, fosfor,
+            dan kalium, serta beberapa vitamin yang penting bagi tubuh.  </item>
+        <item>Es doger adalah salah satu susu kelapa dingin yang sering
+            ditemui di Bandung, Jawa Barat.[1] Walaupun es doger berasal
+            dari Cirebon, es doger juga bisa ditemui di kota-kota besar di
+            Indonesia, seperti Jakarta, Malang, dan Surabaya. Selain rasanya
+            yang enak, es doger juga enak diminum di tempat-tempat yang panas.
+            Es doger juga enak jika diminum setelah melakukan olahraga. Es
+            doger berbahan dasar susu dan parutan kelapa, ditambah dengan
+            tape, ketan hitam, avokad, dan lain-lain.  </item>
+        <item>Kopi dalgona adalah minuman yang dibuat dengan mencampurkan
+            kopi instan, gula, dan air panas dengan jumlah perbandingan yang
+            sama. Campuran itu kemudian dikocok sehingga menjadi krim dan kemudian
+            ditambahkan ke susu dingin atau panas.  </item>
+
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/boba</item>
+        <item>@drawable/thaitea</item>
+        <item>@drawable/jamuberaskencur</item>
+        <item>@drawable/esdoger</item>
+        <item>@drawable/dalgona</item>
+
+    </integer-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shoppingbag">ini adalah fragment shopping bag</string>
+    <string name="hello_ini_shopping_bag">shoppingbag</string>
 
 
 </resources>
