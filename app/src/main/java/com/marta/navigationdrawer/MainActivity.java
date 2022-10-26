@@ -21,7 +21,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private RecyclerView rvHeroes;
+    private RecyclerView rvMinuman;
     private ArrayList<Minuman> list = new ArrayList<>();
 
     @Override
@@ -41,32 +41,32 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
         }
 
-//        rvHeroes = findViewById(R.id.rv_heroes);
-//        rvHeroes.setHasFixedSize(true);
+//        rvMinuman = findViewById(R.id.rv_heroes);
+//        rvMinuman.setHasFixedSize(true);
 //
-//        list.addAll(getListHeroes());
+//        list.addAll(getListMinuman());
 //        showRecyclerList();
     }
 
-//    public ArrayList<Hero> getListHeroes() {
+//    public ArrayList<Minuman> getListMinuman() {
 //        String[] dataName = getResources().getStringArray(R.array.data_name);
 //        String[] dataDescription = getResources().getStringArray(R.array.data_description);
 //        TypedArray dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
-//        ArrayList<Hero> listHero = new ArrayList<>();
+//        ArrayList<Minuman> listMinuman = new ArrayList<>();
 //        for (int i = 0; i < dataName.length; i++) {
-//            Hero hero = new Hero();
-//            hero.setName(dataName[i]);
-//            hero.setDescription(dataDescription[i]);
-//            hero.setPhoto(dataPhoto.getResourceId(i, -1));
-//            listHero.add(hero);
+//            Minuman Minuman = new Hero();
+//            Minuman.setName(dataName[i]);
+//            Minuman.setDescription(dataDescription[i]);
+//            Minuman.setPhoto(dataPhoto.getResourceId(i, -1));
+//            lisMinuman.add(Minuman);
 //        }
-//        return listHero;
+//        return listMinuman;
 //    }
 //
 //    private void showRecyclerList() {
-//        rvHeroes.setLayoutManager(new LinearLayoutManager(this));
-//        ListHeroAdapter listHeroAdapter = new ListHeroAdapter(list);
-//        rvHeroes.setAdapter(listHeroAdapter);
+//        rvMinuman.setLayoutManager(new LinearLayoutManager(this));
+//        ListMinumanAdapter listMinumanAdapter = new ListMinumanAdapter(list);
+//        rvMinuman.setAdapter(listMinumanAdapter);
 //    }
 
     @Override

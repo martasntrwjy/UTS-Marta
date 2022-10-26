@@ -42,7 +42,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/img_item_photo"
             app:layout_constraintTop_toTopOf="@+id/img_item_photo"
-            android:text="@string/heroes_name"/>
+            android:text="@string/minuman_name"/>
 
         <TextView
             android:id="@+id/tv_item_description"

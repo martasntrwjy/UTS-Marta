@@ -9,7 +9,7 @@
     <string name="menu_2">Menu 2</string>
 
     <string name="search_hint">Masukkan kata</string>
-    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="minuman_name">Nama Minuman</string>
     <string name="description">Deskripsi</string>
     <string-array name="data_name">
         <item>Minuman Boba</item>

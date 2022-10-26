@@ -17,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.ArrayList;
 
 public class HomeFragment extends Fragment {
-    private RecyclerView rvHeroes;
+    private RecyclerView rvMinuman;
     private ArrayList<Minuman> list = new ArrayList<>();
 
     public static HomeFragment newInstance(String param1, String param2) {
@@ -31,33 +31,33 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        rvHeroes = view.findViewById(R.id.rv_heroes);
-        rvHeroes.setHasFixedSize(true);
+        rvMinuman = view.findViewById(R.id.rv_Minuman);
+        rvMinuman.setHasFixedSize(true);
 
-        list.addAll(getListHeroes());
+        list.addAll(getListMinuman());
         showRecyclerList();
 
     }
 
-    public ArrayList<Minuman> getListHeroes() {
+    public ArrayList<Minuman> getListMinuman() {
         String[] dataName = getResources().getStringArray(R.array.data_name);
         String[] dataDescription = getResources().getStringArray(R.array.data_description);
         TypedArray dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
-        ArrayList<Minuman> listHero = new ArrayList<>();
+        ArrayList<Minuman> listMinuman = new ArrayList<>();
         for (int i = 0; i < dataName.length; i++) {
             Minuman Minuman = new Minuman();
             Minuman.setName(dataName[i]);
             Minuman.setDescription(dataDescription[i]);
             Minuman.setPhoto(dataPhoto.getResourceId(i, -1));
-            listHero.add(Minuman);
+            listMinuman.add(Minuman);
         }
-        return listHero;
+        return listMinuman;
     }
 
     private void showRecyclerList() {
-        rvHeroes.setLayoutManager(new LinearLayoutManager(getContext()));
-        ListMinumanAdapter listHeroAdapter = new ListMinumanAdapter(list);
-        rvHeroes.setAdapter(listHeroAdapter);
+        rvMinuman.setLayoutManager(new LinearLayoutManager(getContext()));
+        ListMinumanAdapter listMinumanAdapter = new ListMinumanAdapter(list);
+        rvMinuman.setAdapter(listMinumanAdapter);
     }
 
     @Override
